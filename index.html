@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>狄飞科技 - WEB静态资源</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>DFLY LABS WEB STATIC LIST</h1>
+    </header>
+    <main>
+        <ul>
+            <li id="downloadTest">2023年嵌入式系统及物联网应用实验室WEB考核题</li>
+            <li id="viewTest">2023年嵌入式系统及物联网应用实验室WEB考核题 题目2</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2021 - 2023 DFLY LABS, ALL RIGHTS RESERVED.</p>
+        <p>the MikuWorks presents. BY Nick Hsu.</p>
+    </footer>
+</body>
+</html>
+
+<script>
+    document.querySelector('#downloadTest').addEventListener('click', () => {
+        window.open('./downloadTest/index.html')
+    })
+
+    document.querySelector('#viewTest').addEventListener('click', () => {
+        window.open('./webtest/index.html')
+    })
+</script>

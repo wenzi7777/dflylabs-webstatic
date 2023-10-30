@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+header {
+    margin: 20px 0 0 0;
+}
+
+header > h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #39c5bb;
+}
+
+main {
+    flex-grow: 1;
+}
+
+main > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main > ul > li {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+    color: blue;
+}
+
+main > ul > li:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0 0 20px 0;
+}
+
+footer > p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #8c8c8c;
+}
